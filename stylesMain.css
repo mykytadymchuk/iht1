@@ -1,0 +1,72 @@
+body {
+    background-color: #85C1E9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+#blogTitle {
+    font-size: 45px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+#usernameBlock {
+    font-size: 30px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#post {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid #1B4F72;
+}
+
+#fileDate {
+    margin: 0;
+}
+
+#postAddBlock {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#postAddButton {
+    font-size: 40px;
+    text-align: center;
+    color: #1B4F72;
+    background-color: white;
+    border: 2px solid #1B4F72;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+    width: 200px;
+}
+
+#postAddButton:hover {
+    background-color: #1B4F72;
+    color: white;
+}
+
+#postNone {
+    text-align: center;
+}
+
+#logoutBlock {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}

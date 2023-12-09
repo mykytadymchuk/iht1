@@ -1,0 +1,72 @@
+body {
+    background-color: #85C1E9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+#blogTitle {
+    font-size: 45px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+
+#usernameBlock {
+    font-size: 30px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+
+#cancelBlock {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+
+#postAddButton {
+    font-size: 20px;
+    text-align: center;
+    color: #1B4F72;
+    background-color: white;
+    border: 2px solid #1B4F72;
+    border-radius: 10px;
+    transition: background-color 0.2s, color 0.2s;
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+}
+
+#postAddButton:hover {
+    background-color: #1B4F72;
+    color: white;
+}
+
+#postText {
+    display: flex;
+    padding: 20px;
+    max-height: 500px;
+    min-height: 500px;
+    height: 500px;
+    max-width: 1500px;
+    min-width: 1500px;
+    width: 1500px;
+    font-size: 20px;
+}
+
+#postAddBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
